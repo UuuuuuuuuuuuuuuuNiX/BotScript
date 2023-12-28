@@ -1,0 +1,5 @@
+The dirictory "Example" create for show the some project wich can create on BotScript
+
+For one example there is two file:
+The file with ending ".bot": | This is a code of example file
+                     ".txt": | This is a code with explanation each command

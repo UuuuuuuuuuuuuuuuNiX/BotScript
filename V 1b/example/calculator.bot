@@ -1,0 +1,26 @@
+PRINT("Welcome to eayse calculator whose create by BotScript")
+
+PRINT("Please enter the first number: ")
+VAR num1 = INPUT_INT()
+
+PRINT("Please enter the second number: ")
+VAR num2 = INPUT_INT()
+
+PRINT("Please enter the number of token of operation:
+1. PLUS
+2. MINUS
+3. DIV
+4. MULT")
+VAR token = INPUT_INT()
+
+IF token == 1 THEN
+    PRINT(num1 + num2)
+ELIF token == 2 THEN
+    PRINT(num1 - num2)
+ELIF token == 3 THEN
+    PRINT(num1 / num2)
+ELIF token == 4 THEN
+    PRINT(num1 * num2)
+ELSE
+    PRINT("Error") 
+END
