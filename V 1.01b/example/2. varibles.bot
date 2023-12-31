@@ -1,0 +1,10 @@
+# This program adds two numbers
+
+VAR x = 5
+VAR y = 2
+
+# Sum the sum of x and y
+VAR sum = x + y
+
+# Print result
+PRINT(sum)

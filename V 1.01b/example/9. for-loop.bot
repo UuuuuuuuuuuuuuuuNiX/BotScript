@@ -1,0 +1,28 @@
+# FOR loop is loop for 'to list' someting informating
+
+# Example
+
+FOR i = 0 TO 5 THEN 
+	PRINT(i)
+END
+
+# Example
+
+VAR list = ["Some", "one", "item", "in", "list"]
+VAR len = LEN(list)
+
+FOR i = 0 TO len THEN
+	PRINT(i)
+	PRINT(list/i)
+END
+
+# Example
+
+FOR i = 0 TO 5 THEN
+	IF i == 1 AND i == 5 THEN
+		PRINT("Hello")
+	ELSE
+		PRINT("NotHello") 
+	END
+END
+

@@ -1,0 +1,33 @@
+# The list is a place where we have a some varible
+# List create by VAR such as varible
+# Example for understand:
+
+VAR list = []; # The list with out something
+
+# List have a list_func: APPEND, POP, EXTEND and LEN
+
+# Example:
+
+# Append:
+APPEND(list, "hello"); # index -> 0
+APPEND(list, "goodbye"); # index -> 1
+
+# POP:
+POP(list, 0); # The second value is index -> index is number of element and started from 0
+
+# CLEAR: 
+CLEAR(list); # Delete all from list
+
+# Extend:
+VAR case = ["Hola!"] # Create new list
+EXTEND(list, case) # EXTEN() unite the two list
+
+# LEN 
+VAR len = LEN(list) # LEN -> func whose have a count of element your list
+
+# The result
+
+PRINT(list); PRINT(len)
+
+# And if you have mistake from list index add '/' -> "some_code... element/0" |
+# It's need if you add the varible or unforeseen exceptions

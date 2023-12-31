@@ -1,0 +1,35 @@
+# The conditional comannd are: IF-ELIF-ELSE
+# Go to create a easy calculate (But you have to know that you can not use '==' with STR!)
+
+# Creating:
+
+CLS() 
+
+PRINT("Welcome to eayse calculator whose create by BotScript")
+
+PRINT("Please enter the first number: ")
+VAR num1 = input_int()
+
+PRINT("Please enter the second number: ")
+VAR num2 = input_int()
+
+PRINT("Please enter the number of token of operation:
+1. PLUS
+2. MINUS
+3. DIV
+4. MULT")
+VAR token = input_int()
+
+# The conditional:
+
+IF token == 1 THEN
+    PRINT(num1 + num2)
+ELIF token == 2 THEN
+    PRINT(num1 - num2)
+ELIF token == 3 THEN
+    PRINT(num1 / num2)
+ELIF token == 4 THEN
+    PRINT(num1 * num2)
+ELSE
+    PRINT("Error") 
+END # You must know, that the conditional loop closing by 'END'

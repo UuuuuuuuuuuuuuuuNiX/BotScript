@@ -1,0 +1,38 @@
+# About type.
+# In BotScript is three type-data: STR, INT(with non_uner_type: FLOAT) and BOOL
+# Sometime we need to check the varible is a STR, INT or BOOL
+# For this reason we have: IS_NUM(), IS_STR() and if-conditional(for TRUE/FALSE), so we had additional func, such as: IS_LIST() and IS_FUN()
+
+# Example:
+
+# 1 = TRUE
+# 0 = FALSE
+
+PRINT(IS_NUM(5))
+PRINT(IS_STR("Hello"))
+VAR list = []
+VAR islist = IS_LIST(list)
+PRINT(islist )
+
+VAR yes = 1 
+
+# Additional for BOOL
+
+WHILE yes == 1 THEN
+	PRINT("UwU")
+	BREAK 
+END
+
+# The result: because yes = 1, yes = TRUE and we have a result: "UwU" -> 1
+
+# Additional for FUN
+
+FUN pl(text)
+	PRINT(text)
+END
+
+pl("hello")
+
+PRINT(IS_FUN(pl))
+
+# In end BotScript also print '0'

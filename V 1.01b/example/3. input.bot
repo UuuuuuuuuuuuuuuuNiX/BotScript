@@ -1,0 +1,17 @@
+# This programme create a card of user with your answer
+
+# Print the questions and inputing the answers
+PRINT("Type your name: ")
+VAR name = INPUT()
+PRINT("Type your old: ")
+VAR old = INPUT()
+PRINT("Type youe hobby: ")
+VAR hobby = INPUT()
+
+# Print result
+PRINT("Your name:")
+PRINT(name)
+PRINT("Your old:")
+PRINT(old)
+PRINT("Your hobby:")
+PRINT(hobby)

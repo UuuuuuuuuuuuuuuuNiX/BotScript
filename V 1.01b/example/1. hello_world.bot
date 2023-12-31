@@ -1,0 +1,3 @@
+# This program prints 'Hello, world!' use a function PRINT() and text:STR type.
+
+PRINT("Hello, world!")

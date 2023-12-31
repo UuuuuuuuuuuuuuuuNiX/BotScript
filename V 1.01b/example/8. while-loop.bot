@@ -1,0 +1,24 @@
+# While - loop whose will be work until the conditional is TRUE
+
+# For easy example create a to-do list:
+
+VAR run = 1
+VAR elements = []
+
+WHILE run == 1 THEN
+    PRINT("Enter the one case for today:")
+    VAR to_list = INPUT()
+    APPEND(elements, to_list)
+    PRINT("Enter '321' to close or some number to scape: ")
+    VAR close = INPUT_INT()
+    IF close == 321 THEN
+        BREAK 
+    END
+END
+
+VAR len = LEN(elements)
+
+PRINT("Count of case for today: ")
+PRINT(len)
+PRINT("List of doing-case(go through a coma): ")
+PRINT(elements)

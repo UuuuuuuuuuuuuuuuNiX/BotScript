@@ -1,0 +1,9 @@
+# In BotScript we have not a "," for print more one argument because func PRINT() has only one.
+# But we can print two argument on one line.
+# This can be if we made from some argument one use a PLUS -> VAR x = "Hello, "; VAR y = "World!"; PRINT(x + y)
+# The output: Hello, world!; 0
+
+# Example
+
+VAR name = INPUT()
+PRINT("Hello, " + name)
