@@ -1,3 +1,0 @@
-The FastLer was rename to BotScript
-
-The base of program lang was created!
